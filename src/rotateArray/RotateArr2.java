@@ -6,37 +6,28 @@ public class RotateArr2 {
     // in place rotation
 
     public static void main(String[] args) {
+
         int arr[] = {6,7,8,9,0,34, 67, 45};
-        System.out.println(Arrays.toString(rotation(arr, 2)) );
+
+        reverseArray(arr, 0, 2 - 1);
+        reverseArray(arr, 2, arr.length - 1);
+
+//      System.out.println(Arrays.toString(rotation(arr, 2)) );
+        System.out.println(Arrays.toString(reverseArray(arr, 0, arr.length - 1)));
+
     }
 
-    public static int[] rotation(int arr[], int n){
+    public static int[] reverseArray(int[] arr, int l, int r){
 
-        int r = n - 1;
+        int n = r;
         int temp = 0;
-        for(int l = 0; l <= (n - 1)/2; l++){
-            temp = arr[l];
-            arr[l] = arr[r];
+        for(int i = l; i <= (n - 1)/2; i++){
+            temp = arr[i];
+            arr[i] = arr[r];
             arr[r--] = temp;
         }
-
-        int r2 = arr.length - 1;
-        int temp2 = 0;
-        for(int l = n; l <= (arr.length - 1)/2; l++){
-            temp2 = arr[l];
-            arr[l] = arr[r2];
-            arr[r2--] = temp2;
-        }
-
-        int r3 = arr.length - 1;
-        int temp3 = 0;
-        for(int l = 0; l <= (arr.length - 1)/2; l++){
-            temp3 = arr[l];
-            arr[l] = arr[r3];
-            arr[r3--] = temp3;
-        }
-
-
         return arr;
     }
+
+
 }
