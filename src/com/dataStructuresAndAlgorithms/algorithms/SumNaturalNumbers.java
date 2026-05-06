@@ -1,4 +1,4 @@
-package com.alogos.algorithms;
+package com.dataStructuresAndAlgorithms.algorithms;
 
 public class SumNaturalNumbers {
 

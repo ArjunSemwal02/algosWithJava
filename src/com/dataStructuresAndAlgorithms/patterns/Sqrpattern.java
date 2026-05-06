@@ -1,4 +1,4 @@
-package dsa.patterns;
+package com.dataStructuresAndAlgorithms.patterns;
 
 public class Sqrpattern {
     public static void main(String[] args) {

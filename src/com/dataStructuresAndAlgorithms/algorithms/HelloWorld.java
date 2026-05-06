@@ -1,6 +1,6 @@
-package com.alogos.algorithms;
+package com.dataStructuresAndAlgorithms.algorithms;
 
-public class Algos {
+public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }

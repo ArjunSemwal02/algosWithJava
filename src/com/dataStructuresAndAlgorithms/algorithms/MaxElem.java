@@ -1,6 +1,6 @@
-package com.alogos.algorithms;
+package com.dataStructuresAndAlgorithms.algorithms;
 
-public class Maxelem {
+public class MaxElem {
     public static void main(String[] args) {
         int arr[] = {34,-56,456,435,3,4,6,2,-65, 458};
 

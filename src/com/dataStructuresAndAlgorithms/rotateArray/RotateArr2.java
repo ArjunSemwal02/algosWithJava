@@ -1,4 +1,4 @@
-package rotateArray;
+package com.dataStructuresAndAlgorithms.rotateArray;
 
 import java.util.Arrays;
 

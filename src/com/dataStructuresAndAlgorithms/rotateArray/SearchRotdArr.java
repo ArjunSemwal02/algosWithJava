@@ -1,4 +1,4 @@
-package rotateArray;
+package com.dataStructuresAndAlgorithms.rotateArray;
 
 public class SearchRotdArr {
 
@@ -8,8 +8,8 @@ public class SearchRotdArr {
 
     private static int searchSortedArray(int arr[], int k){
 
-        getPivot();
-        binarySearch(arr, k, 0, );
+//        getPivot();
+//        binarySearch(arr, k, 0, );
 
 
 

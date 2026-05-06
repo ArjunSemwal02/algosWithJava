@@ -1,4 +1,4 @@
-package com.alogos.algorithms;
+package com.dataStructuresAndAlgorithms.algorithms;
 
 public class SumOfArray {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package searchAlgos;
+package com.dataStructuresAndAlgorithms.searchAlgos;
 
 public class BinarySearch {
 
