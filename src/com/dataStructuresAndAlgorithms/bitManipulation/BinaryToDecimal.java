@@ -4,7 +4,7 @@ public class BinaryToDecimal {
 
     public static void main(String[] args) {
 //        System.out.println(binaryToDecimal("1010"));
-        System.out.println(binaryToDecimal("11011001"));
+        System.out.println(binaryToDecimal("0"));
     }
 
     private static int binaryToDecimal(String bin){

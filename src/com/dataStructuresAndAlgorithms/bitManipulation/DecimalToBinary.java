@@ -3,13 +3,13 @@ package com.dataStructuresAndAlgorithms.bitManipulation;
 public class DecimalToBinary {
 
     public static void main(String[] args) {
-        System.out.println(decimalToBinary(217));
+        System.out.println(decimalToBinary(0));
 //        System.out.println(decToBinRec(217));
 //        System.out.println(printString());
     }
 
     public static String decimalToBinary(int n){
-
+        if(n == 0) return "0";
         String s = "";
 
         while(n >= 1){
